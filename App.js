@@ -11,8 +11,11 @@ import {Tabs} from './routes/Tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
+import {NetflixGeolocation} from './services/MovieFilter';
 
 const Stack = createStackNavigator();
+
+NetflixGeolocation();
 
 const App = () => {
 	return (

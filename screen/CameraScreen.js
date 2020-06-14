@@ -31,7 +31,7 @@ export default class CameraScreen extends React.Component {
               backgroundColor: 'transparent',
               flexDirection: 'row',
             }}>
-            <ActivityIndicator size="large" color="#00f00" animating={this.state.isProcessingPhoto} styles={{flex: 1, alignSelf: 'center'}}/>
+            <ActivityIndicator size="large" color="#00f00" animating={this.state.isProcessingPhoto} style={{alignSelf: 'center'}}/>
             <TouchableOpacity
               style={{
                 flex: 1,
